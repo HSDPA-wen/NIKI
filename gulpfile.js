@@ -43,7 +43,7 @@ gulp.task('html', function () {
 
 // 压缩图片
 gulp.task('image', ['clean'], function() {
-    return gulp.src(['source/images/*.{png,jpg,gif,ico}','source/images/*/*.{png,jpg,gif,ico}'])
+    gulp.src(['source/images/*.{png,jpg,gif,ico}','source/images/*/*.{png,jpg,gif,ico}'])
         // Pass in options to the task
         .pipe(imagemin({
             progressive: true,
