@@ -1,0 +1,1 @@
+var spplierFed={top_menuHover:function(){$(".userinfo_mer").hover(function(){$(this).css("z-index","100").find(".mer_oprate").show(),$(this).parent().css("z-index","100")},function(){$(this).css("z-index","1").find(".mer_oprate").hide(),$(this).parent().css("z-index","1")})},funLoad:function(){this.top_menuHover()}};$(function(){spplierFed.funLoad()});
